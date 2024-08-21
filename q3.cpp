@@ -7,13 +7,13 @@ int main()
     vowel3='i';
     vowel4='o';
     vowel5='u';
-    std::cout<<"vowel2-vowel1="<<vowel2-vowel1<<"\nvowel5-vowel2="<<vowel5-vowel2;
+    std::cout<<"vowel2-vowel1="<<vowel2-vowel1<<"\nvowel5-vowel2="<<vowel5-vowel2;//valid xpressions
     capVowel1='A';
     capVowel2='E';
     capVowel3='I';
     capVowel4='O';
     capVowel5='U';
-    std::cout<<"\ncapVowel2-capVowel1="<<capVowel2-capVowel1<<"\ncapVowel5-capVowel2="<<capVowel5-capVowel2;
+    std::cout<<"\ncapVowel2-capVowel1="<<capVowel2-capVowel1<<"\ncapVowel5-capVowel2="<<capVowel5-capVowel2;//valid expressions
     int a,b;
     a=(int)vowel2-vowel1;
     b=(int)capVowel2-capVowel1;
@@ -22,4 +22,6 @@ int main()
     else
         std::cout<<"\nvowel2-vowel1 and capVowel2-capVowel1 don't have the same value!!";
     return 0;
+    /*vowel2-vowel1 and capVowel2-capVowel has the same value as difference of ascii value in both the cases are same .
+    Here ASCII  value of vowel2 is 101,vowel1=97,capVowel2=69,capVowel=65,thus 101-97=4=69-65*/
 }
