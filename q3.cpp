@@ -23,5 +23,5 @@ int main()
         std::cout<<"\nvowel2-vowel1 and capVowel2-capVowel1 don't have the same value!!";
     return 0;
     /*vowel2-vowel1 and capVowel2-capVowel has the same value as difference of ascii value in both the cases are same .
-    Here ASCII  value of vowel2 is 101,vowel1=97,capVowel2=69,capVowel=65,thus 101-97=4=69-65*/
+    Here ASCII  value of vowel2 (e)= 101,vowel1(a)=97,capVowel2(E)=69,capVowel1(A)=65,thus 101-97=4=69-65*/
 }
