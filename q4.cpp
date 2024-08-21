@@ -17,6 +17,6 @@ int main()
   }
 
  std::cout<<"\n";
-
+//Negative numbers are stored in 2's compliment
   return 0;
 }
