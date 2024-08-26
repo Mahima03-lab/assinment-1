@@ -1,16 +1,17 @@
 #include<iostream>
 int main()
 {
-    float a,k,b,c,d;
+   long double a,k,b,c,d;
     std::cout<<"ENTER THE NUMBER a=";
     std::cin>>a;
     std::cout<<"ENTER THE PLACE TO BE TRUNCATED UPTO, k=";
     std::cin>>k;
-    int e;
-    b=a+(0.5/k);
+    long int e;
+    b=a+(0.5f/k);
     c=b*k;
-    e=c;
-    d=e/k;
+    e=(long int)c;
+    d=(long double)e/k;
+    std::cout<<std::fixed;
     std::cout<<"TRUNCATED NUMBER IS:"<<d;
     return 0;
 }
